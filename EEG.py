@@ -6,7 +6,7 @@ from collections import deque
 
 # 設定串口名稱和波特率
 SERIAL_PORT = 'COM15'  # 根據你的電腦串口名稱修改
-BAUD_RATE = 500000
+BAUD_RATE = 115200
 OUTPUT_FILE = 'eeg_data.csv'
 
 # 初始化即時繪圖
