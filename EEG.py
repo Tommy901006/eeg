@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 from collections import deque
 
 # 設定串口名稱和波特率
-SERIAL_PORT = 'COM15'  # 根據你的電腦串口名稱修改
+SERIAL_PORT = input("Enter the serial port (e.g., COM15): ")  # 動態輸入串口名稱
 BAUD_RATE = 115200
 OUTPUT_FILE = 'eeg_data.csv'
 
